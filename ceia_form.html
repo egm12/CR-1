@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CEIA Form</title>
+    <style>
+        .question {
+            padding: 0px 5px;
+        }
+        .answers {
+            text-align: center;
+        }
+        .form {
+            margin-right: auto;
+            margin-left: auto;
+            padding: 40px 280px;
+        }
+        .blockQA {
+            width: 800px;
+            height: 80px;
+            border: 1px solid blue;
+            box-sizing: border-box;
+            border: solid 1px #000000;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+        body {
+            background-image: url('lightB.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        span.tab{
+            padding: 60px; /* Or desired space*/
+        }
+        #header {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Department of Computer Science</h1>
+        <h2>Introduction to Programming - CMPS 200</h2>
+        <h2>El-Hajj, Wassim</h2>
+    </div>
+
+    <div class ="form">
+
+        <div class = "blockQA">
+            <p class="question">Q1: The instructor was prepared for the class session.</p>
+            <ul class="answers">
+                <input type="radio" name="q1" value="yes" id="q1yes" ><label for="q1yes">yes</label>
+                <span class="tab"></span>
+                <input type="radio" name="q1" value="no" id="q1no"><label for="q1no">no</label>
+                <span class="tab"></span>
+                <input type="radio" name="q1" value="partially" id="q1partially"><label for="q1partially">partially</label><br/>
+            </ul>
+        </div><br/>
+
+        <div class = "blockQA">
+            <p class="question">Q2: The instructor described the learning outcomes to students at the start of the class session.</p>
+            <ul class="answers">
+                <input type="radio" name="q2" value="yes" id="q2yes"><label for="q2yes">yes</label>
+                <span class="tab"></span>
+                <input type="radio" name="q2" value="no" id="q2no"><label for="q2no">no</label>
+                <span class="tab"></span>
+                <input type="radio" name="q2" value="partially" id="q2partially"><label for="q2partially">partially</label><br/>
+            </ul>
+        </div><br/>
+
+        <div class = "blockQA">
+            <p class="question">Q3: The instructor successfully interacted with students.</p>
+            <ul class="answers">
+                <input type="radio" name="q3" value="yes" id="q3yes"><label for="q3yes">yes</label>
+                <span class="tab"></span>
+                <input type="radio" name="q3" value="no" id="q3no"><label for="q3no">no</label>
+                <span class="tab"></span>
+                <input type="radio" name="q3" value="partially" id="q3partially"><label for="q3partially">partially</label><br/>
+            </ul>
+        </div><br/>
+
+        <div class = "blockQA">
+            <p class="question">Q4: The instructor clearly explained the grading critera in the beginning of the course.</p>
+            <ul class="answers">
+                <input type="radio" name="q4" value="yes" id="q4yes"><label for="q4yes">yes</label>
+                <span class="tab"></span>
+                <input type="radio" name="q4" value="no" id="q4no"><label for="q4no">no</label>
+                <span class="tab"></span>
+                <input type="radio" name="q4" value="partially" id="q4partially"><label for="q4partially">partially</label><br/>
+            </ul>
+        </div>
+        <br/>
+    </div>
+
+</body>
+</html>
